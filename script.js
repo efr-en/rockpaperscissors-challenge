@@ -1,4 +1,4 @@
-//choices stated
+//choices and score displays
 const choices = ['rock', 'paper', 'scissors'];
 const playerDisplay = document.getElementById('playerDisplay');
 const computerDisplay = document.getElementById('computerDisplay');
@@ -9,6 +9,7 @@ let playerScore = 0;
 let computerScore = 0;
 let tieScore = 0;
 
+// actual game logic/function with psuedocode 
 function playGame(playerChoice) {
     const computerChoice = choices[Math.floor(Math.random() * 3)];
     let result = "";
@@ -33,6 +34,7 @@ function playGame(playerChoice) {
     computerDisplay.textContent = `Computer: ${computerChoice}`;
     resultDisplay.textContent = result;
 
+// color assignment based on results
     resultDisplay.classList.remove('greenT', 'redT');
     switch(result) {
         case 'You win!':
@@ -56,6 +58,7 @@ function playGame(playerChoice) {
     }
 }
 
+//reset game button function
 function resetGame() {
     playerScore = 0;
     computerScore = 0;

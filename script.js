@@ -55,3 +55,17 @@ function playGame(playerChoice) {
 
     }
 }
+
+function resetGame() {
+    playerScore = 0;
+    computerScore = 0;
+    tieScore = 0;
+    playerDisplay.textContent = 'Player:';
+    computerDisplay.textContent = 'Computer:';
+    resultDisplay.textContent = '';
+    playerScoreDisplay.textContent = playerScore;
+    computerScoreDisplay.textContent = computerScore;
+    tieScoreDisplay.textContent = tieScore;
+    // resultDisplay.classList.remove('greenT', 'redT', 'whiteT');
+
+}

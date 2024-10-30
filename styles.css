@@ -47,7 +47,7 @@ h1 {
     font-size: 20px;
 }
 
-.greenT {
+.greenT #playerScoreDisplay {
     color: green;
 }
 .redT {

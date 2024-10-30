@@ -43,6 +43,10 @@ h1 {
     /* color: lightblue; */
 }
 
+.scoreDisplay {
+    font-size: 20px;
+}
+
 .greenT {
     color: green;
 }
@@ -52,3 +56,4 @@ h1 {
 .whiteT {
     color: black;
 }
+

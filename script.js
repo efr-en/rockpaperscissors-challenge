@@ -28,4 +28,16 @@ function playGame(playerChoice) {
     computerDisplay.textContent = `Computer: ${computerChoice}`;
     resultDisplay.textContent = result;
 
+    resultDisplay.classList.remove('greenT', 'redT');
+    switch(result) {
+        case 'You win!':
+            resultDisplay.classList.add('greenT')
+            break;
+        case 'Computer wins!':
+            resultDisplay.classList.add('redT');
+            break;
+        case "It's a TIE!":
+            resultDisplay.classList.add('whiteT')
+
+    }
 }

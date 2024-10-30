@@ -1,4 +1,8 @@
 body {
+    /* background-image: url(images/22033.jpg);
+    width: 100vw;
+    height: 100vh
+    object-fit: fill; */
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     display: flex;
@@ -36,5 +40,15 @@ h1 {
 
 #resultDisplay {
     font-size: 30px;
+    /* color: lightblue; */
+}
+
+.greenT {
     color: green;
+}
+.redT {
+    color: red;
+}
+.whiteT {
+    color: black;
 }

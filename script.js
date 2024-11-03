@@ -56,19 +56,19 @@ function playGame(playerChoice) {
             break;
 
     }
-}
+};
 
 //reset game button function
 function resetGame() {
-    playerScore = 0;
-    computerScore = 0;
-    tieScore = 0;
+        playerScore = 0;
+        computerScore = 0;
+        tieScore = 0;
     playerDisplay.textContent = 'Player:';
     computerDisplay.textContent = 'Computer:';
     resultDisplay.textContent = '';
     playerScoreDisplay.textContent = playerScore;
     computerScoreDisplay.textContent = computerScore;
     tieScoreDisplay.textContent = tieScore;
-    // resultDisplay.classList.remove('greenT', 'redT', 'whiteT');
+    resultDisplay.classList.add('greenT', 'redT', 'whiteT');
 
-}
+};

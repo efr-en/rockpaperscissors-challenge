@@ -9,7 +9,7 @@ let playerScore = 0;
 let computerScore = 0;
 let tieScore = 0;
 
-// actual game logic/function with psuedocode 
+// actual game logic 
 function playGame(playerChoice) {
     const computerChoice = choices[Math.floor(Math.random() * 3)];
     let result = "";
@@ -69,6 +69,6 @@ function resetGame() {
     playerScoreDisplay.textContent = playerScore;
     computerScoreDisplay.textContent = computerScore;
     tieScoreDisplay.textContent = tieScore;
-    resultDisplay.classList.add('greenT', 'redT', 'whiteT');
+    // resultDisplay.classList.add('greenT', 'redT', 'whiteT');
 
 };

@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Rock, Paper, Scissors!</title>
+    <title>Rock, Paper, Scissors!</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <!-- the choices and page layout -->
+    <section id="gameContainer">
     <div class="choices">
         <h1> Rock Paper & Scissors!</h1>
-        <h2>Click below to test your luck...</h2>
+        <h2>Test your luck below. . . </h2>
         <button onclick="playGame('rock')">🪨</button>
         <button onclick="playGame('paper')">📝</button>
         <button onclick="playGame('scissors')">✂️</button>
@@ -37,7 +38,11 @@
 
 <!-- button that resets the score -->
     <button id="resetBTN" onclick="resetGame()">Reset</button>
+    </section>
 
 </body>
+
 <script src="script.js"></script>
+
+
 </html>
